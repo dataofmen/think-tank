@@ -16,7 +16,7 @@ source_url: "https://x.com/laozhang2579/status/2037106215747280968"
 source_author: "老张来了 (@laozhang2579)"
 ---
 
-Obsidian+AI 통합 솔루션은 REST API 플러그인, 커스텀 MCP 서버, 워크플로우 자동화 도구 등 다양한 복잡 방식이 존재한다. 그러나 설정 복잡도가 높을수록 실제 사용까지 도달하는 비율이 낮아진다. Filesystem MCP처럼 JSON 설정 하나로 작동하는 최소 구성은 진입 장벽을 극적으로 낮추고, "일단 작동하게 만든 후 최적화"하는 접근법이 PKM 도구 정착에서 더 유효하다. 이는 기능 풍부성보다 초기 마찰 제거가 장기적 활용도를 결정한다는 점을 시사한다.
+Obsidian+AI 통합 솔루션은 REST API 플러그인, 커스텀 MCP 서버, 워크플로우 자동화 도구 등 다양한 복잡 방식이 존재한다. 그러나 설정 복잡도가 높을수록 실제 사용까지 도달하는 비율이 낮아진다. [[Filesystem MCP connects Claude Desktop to Obsidian vaults through a single JSON config without plugins|Filesystem MCP처럼 JSON 설정 하나로 작동하는 최소 구성]]은 진입 장벽을 극적으로 낮추고, "일단 작동하게 만든 후 최적화"하는 접근법이 PKM 도구 정착에서 더 유효하다. 이는 [[The bottleneck for AI agent capability was deployment infrastructure not model intelligence|AI 에이전트의 병목이 모델 지능이 아닌 배포 인프라]]라는 통찰을 PKM 영역에 적용한 것으로, 기능 풍부성보다 초기 마찰 제거가 장기적 활용도를 결정한다는 점을 시사한다.
 
 ---
 Source:: [[2026-03-27-ai-productivity-claude-obsidian-filesystem-mcp]]

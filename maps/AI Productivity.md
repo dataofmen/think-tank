@@ -18,8 +18,13 @@ topic: "ai-productivity"
 - [[Separating evaluation systems from generation layers enables continuous autonomous quality improvement]] — evaluation/generation 분리가 자율 품질 개선의 아키텍처적 전제조건
 - [[The bottleneck for AI agent capability was deployment infrastructure not model intelligence]] — AI 에이전트의 실질적 병목은 모델 지능이 아닌 배포 인프라였으며 오픈소스로 해소 중
 - [[AI agents that use their own capabilities to build new capabilities produce compound improvement effects]] — 에이전트 자체 역량이 다음 개선 사이클의 인프라가 되는 복리 효과
+- [[Filesystem MCP connects Claude Desktop to Obsidian vaults through a single JSON config without plugins]] — JSON 설정 하나로 Obsidian vault를 Claude에 연동하는 최소 인프라 패턴
+- [[Unnecessary complexity in AI-PKM integration reduces actual adoption more than it adds capability]] — AI-PKM 통합에서 초기 마찰 제거가 기능 풍부성보다 장기 활용도를 결정
+- [[Filesystem-only AI access to knowledge bases hits context window limits at scale requiring structured metadata layers]] — 파일시스템 단독 접근의 규모 확장 한계와 구조화된 메타데이터 필요성
 
 ## Tensions
+
+- [[Unnecessary complexity in AI-PKM integration reduces actual adoption more than it adds capability]] vs [[Filesystem-only AI access to knowledge bases hits context window limits at scale requiring structured metadata layers]] — 단순함이 채택을 높이지만, 규모에서는 구조적 복잡성이 불가피
 
 ## Open Questions
 

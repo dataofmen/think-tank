@@ -22,3 +22,4 @@ This is the author's experiential interpretation. The technical accessibility cl
 ---
 Source:: [[2026-03-27-ai-productivity-ai-agent-self-improvement-loop]]
 Topics:: [[AI Productivity]]
+Related:: [[Filesystem MCP connects Claude Desktop to Obsidian vaults through a single JSON config without plugins]] — PKM 영역에서 배포 인프라 단순화의 구체적 사례 (JSON 설정 하나로 연동 완료)

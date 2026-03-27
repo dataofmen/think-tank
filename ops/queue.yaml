@@ -111,5 +111,35 @@ tasks:
   - id: "2026-03-27-ai-productivity-claude-obsidian-filesystem-mcp"
     source: "intake/2026-03-27-ai-productivity-claude-obsidian-filesystem-mcp.md"
     phase: "extract"
-    status: "pending"
+    status: "completed"
     created: "2026-03-27T19:12:00"
+
+  - id: "Filesystem MCP connects Claude Desktop to Obsidian vaults through a single JSON config without plugins"
+    source: "notes/Filesystem MCP connects Claude Desktop to Obsidian vaults through a single JSON config without plugins.md"
+    phase: "verify"
+    status: "completed"
+    created: "2026-03-27T19:20:00"
+    parent: "2026-03-27-ai-productivity-claude-obsidian-filesystem-mcp"
+    reflect_connections: 2
+    reweave_actions: 1
+    verify_score: "5/5"
+
+  - id: "Unnecessary complexity in AI-PKM integration reduces actual adoption more than it adds capability"
+    source: "notes/Unnecessary complexity in AI-PKM integration reduces actual adoption more than it adds capability.md"
+    phase: "verify"
+    status: "completed"
+    created: "2026-03-27T19:20:00"
+    parent: "2026-03-27-ai-productivity-claude-obsidian-filesystem-mcp"
+    reflect_connections: 2
+    reweave_actions: 0
+    verify_score: "5/5"
+
+  - id: "Filesystem-only AI access to knowledge bases hits context window limits at scale requiring structured metadata layers"
+    source: "notes/Filesystem-only AI access to knowledge bases hits context window limits at scale requiring structured metadata layers.md"
+    phase: "verify"
+    status: "completed"
+    created: "2026-03-27T19:20:00"
+    parent: "2026-03-27-ai-productivity-claude-obsidian-filesystem-mcp"
+    reflect_connections: 2
+    reweave_actions: 0
+    verify_score: "5/5"
