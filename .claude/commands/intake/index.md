@@ -280,8 +280,16 @@ type: "article" | "twitter" | "pdf" | "image"
 5. **토픽 자동 분류**: `topic-routing.md`의 키워드 매칭
 6. **저장 여부 결정**: 상기 표 기준
 7. **파일 저장**: `intake/YYYY-MM-DD-토픽-핵심키워드.md` (하위 폴더 없이 루트에 저장)
-8. **work-manager 연동**: 적용성 분석에서 업무 연관 감지 시 제안
-9. **처리 완료**: `.inbox/` 또는 `.processing/`에서 파일 이동 (`.processed/`로)
+8. **파이프라인 큐 등록**: `ops/queue.yaml`에 extract 태스크 추가 (다음 단계 Reduce를 위해)
+   ```yaml
+   - id: "YYYY-MM-DD-토픽-핵심키워드"
+     source: "intake/YYYY-MM-DD-토픽-핵심키워드.md"
+     phase: "extract"
+     status: "pending"
+     created: "YYYY-MM-DDTHH:MM:SS"
+   ```
+9. **work-manager 연동**: 적용성 분석에서 업무 연관 감지 시 제안
+10. **처리 완료**: `.inbox/` 또는 `.processing/`에서 파일 이동 (`.processed/`로)
 
 ---
 
@@ -290,3 +298,5 @@ type: "article" | "twitter" | "pdf" | "image"
 - `verification-rules.md`: 검증 상세 규칙
 - `topic-routing.md`: 토픽 분류 키워드 맵
 - `../../../memory/workflows.md`: 워크플로우 정의
+- `../../CLAUDE.md`: 시스템 전체 컨텍스트
+- `../../ops/derivation-manifest.md`: 도메인 어휘 매핑

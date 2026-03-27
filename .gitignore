@@ -9,6 +9,9 @@ inbox-pdf/
 # macOS
 .DS_Store
 
+# Pipeline queue (operational state, regenerable)
+ops/queue/
+
 # Obsidian
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json

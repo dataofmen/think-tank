@@ -1,0 +1,8 @@
+# Think-Tank Processing Queue
+# Tracks notes through the pipeline phases
+
+phase_order:
+  extract: [reduce]
+  claim: [reflect, reweave, verify]
+
+tasks: []

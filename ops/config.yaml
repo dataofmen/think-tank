@@ -1,0 +1,48 @@
+# Think-Tank Processing Pipeline Configuration
+# Based on Ars Contexta methodology
+
+processing:
+  depth: standard          # standard | deep | light
+  chaining: automatic      # automatic (headless) | manual (interactive)
+  extraction:
+    selectivity: moderate  # strict | moderate | permissive
+    max_claims_per_source: 10
+  verification:
+    description_test: true
+    schema_check: true
+    link_check: true
+  reweave:
+    scope: related         # related | broad
+
+pipeline:
+  phases:
+    verify:
+      timeout_seconds: 180
+      enabled: true
+    reduce:
+      timeout_seconds: 240
+      enabled: true
+    process:
+      timeout_seconds: 600
+      enabled: true
+
+self_evolution:
+  observation_threshold: 10   # /rethink 제안 트리거
+  tension_threshold: 5
+
+git:
+  auto_commit: true
+
+note_schema:
+  required_fields:
+    - description
+    - type
+    - created
+    - topic
+    - tags
+  type_enum:
+    - claim
+    - methodology
+    - problem
+    - tension
+    - learning
