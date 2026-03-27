@@ -1,0 +1,15 @@
+# 임시 처리 파일
+.inbox/pending-*.json
+.processing/
+.processed/
+
+# PDF 원본 (용량 큼)
+inbox-pdf/
+
+# macOS
+.DS_Store
+
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
