@@ -5,4 +5,9 @@ phase_order:
   extract: [reduce]
   claim: [reflect, reweave, verify]
 
-tasks: []
+tasks:
+  - id: "2026-03-27-ai-productivity-autoresearch-agent-optimization"
+    source: "intake/2026-03-27-ai-productivity-autoresearch-agent-optimization.md"
+    phase: "extract"
+    status: "pending"
+    created: "2026-03-27T14:22:00"
