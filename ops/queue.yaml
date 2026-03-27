@@ -61,3 +61,9 @@ tasks:
     reflect_connections: 1
     reweave_actions: 1
     verify_score: "4/5"
+
+  - id: "2026-03-27-ai-productivity-ai-agent-self-improvement-loop"
+    source: "intake/2026-03-27-ai-productivity-ai-agent-self-improvement-loop.md"
+    phase: "extract"
+    status: "pending"
+    created: "2026-03-27T15:44:00"
