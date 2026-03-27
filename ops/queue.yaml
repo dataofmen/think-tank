@@ -65,5 +65,45 @@ tasks:
   - id: "2026-03-27-ai-productivity-ai-agent-self-improvement-loop"
     source: "intake/2026-03-27-ai-productivity-ai-agent-self-improvement-loop.md"
     phase: "extract"
-    status: "pending"
+    status: "completed"
     created: "2026-03-27T15:44:00"
+
+  - id: "Recursive evaluation-improvement loops raised AI agent first-pass quality from 40 percent to 94 percent"
+    source: "notes/Recursive evaluation-improvement loops raised AI agent first-pass quality from 40 percent to 94 percent.md"
+    phase: "verify"
+    status: "completed"
+    created: "2026-03-27T15:50:00"
+    parent: "2026-03-27-ai-productivity-ai-agent-self-improvement-loop"
+    reflect_connections: 3
+    reweave_actions: 2
+    verify_score: "5/5"
+
+  - id: "Separating evaluation systems from generation layers enables continuous autonomous quality improvement"
+    source: "notes/Separating evaluation systems from generation layers enables continuous autonomous quality improvement.md"
+    phase: "verify"
+    status: "completed"
+    created: "2026-03-27T15:50:00"
+    parent: "2026-03-27-ai-productivity-ai-agent-self-improvement-loop"
+    reflect_connections: 2
+    reweave_actions: 0
+    verify_score: "5/5"
+
+  - id: "The bottleneck for AI agent capability was deployment infrastructure not model intelligence"
+    source: "notes/The bottleneck for AI agent capability was deployment infrastructure not model intelligence.md"
+    phase: "verify"
+    status: "completed"
+    created: "2026-03-27T15:50:00"
+    parent: "2026-03-27-ai-productivity-ai-agent-self-improvement-loop"
+    reflect_connections: 2
+    reweave_actions: 0
+    verify_score: "4/5"
+
+  - id: "AI agents that use their own capabilities to build new capabilities produce compound improvement effects"
+    source: "notes/AI agents that use their own capabilities to build new capabilities produce compound improvement effects.md"
+    phase: "verify"
+    status: "completed"
+    created: "2026-03-27T15:50:00"
+    parent: "2026-03-27-ai-productivity-ai-agent-self-improvement-loop"
+    reflect_connections: 3
+    reweave_actions: 2
+    verify_score: "4/5"

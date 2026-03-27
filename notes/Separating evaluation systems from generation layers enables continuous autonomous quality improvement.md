@@ -17,7 +17,7 @@ source_author: "Scott Johnson (Sparkwave AI)"
 
 Sparkwave's architecture cleanly separates two concerns: the generation layer (system prompts, context, instructions that shape output) and the evaluation layer (pass/fail gates that judge output quality). When a customer said "I work until 6" and the AI recommended a 6 PM class, the evaluation layer caught the error. Agent Rico then performed root cause analysis and patched the generation layer's time-constraint interpretation logic. Subsequent similar inputs passed on first attempt.
 
-This separation is what makes the improvement loop autonomous — the evaluation layer acts as both quality gate and diagnostic signal, while the generation layer remains the single target for remediation. Without separation, failure signals and generation logic become entangled, making systematic improvement difficult.
+This separation is what makes the improvement loop autonomous — the evaluation layer acts as both quality gate and diagnostic signal, while the generation layer remains the single target for remediation. This structurally ensures two of the three elements in [[Autoresearch pattern requires a measurable metric, code access, and experiment history tracking]]: the evaluation layer provides the measurable metric, and the isolated generation layer provides clean code access. Without separation, failure signals and generation logic become entangled, making systematic improvement difficult. The quantitative payoff of this architecture is documented in [[Recursive evaluation-improvement loops raised AI agent first-pass quality from 40 percent to 94 percent|the 40%→94% improvement case]].
 
 ---
 Source:: [[2026-03-27-ai-productivity-ai-agent-self-improvement-loop]]
