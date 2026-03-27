@@ -143,3 +143,9 @@ tasks:
     reflect_connections: 2
     reweave_actions: 0
     verify_score: "5/5"
+
+  - id: "2026-03-27-ai-productivity-notebooklm-claude-anki-language-learning"
+    source: "intake/2026-03-27-ai-productivity-notebooklm-claude-anki-language-learning.md"
+    phase: "extract"
+    status: "pending"
+    created: "2026-03-27T19:41:00"
