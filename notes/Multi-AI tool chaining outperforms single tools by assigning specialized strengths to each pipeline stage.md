@@ -24,3 +24,6 @@ The limitation is that multi-tool chains introduce integration friction and fail
 ---
 Source:: [[2026-03-27-ai-productivity-notebooklm-claude-anki-language-learning]]
 Topics:: [[AI Productivity]]
+Related:: [[Chaining NotebookLM Claude and Anki produced 504 flashcards from a single TV series without textbooks]] — 이 패턴의 구체적 실증 사례 (NotebookLM→Claude→Anki 체인)
+Related:: [[Separating evaluation systems from generation layers enables continuous autonomous quality improvement]] — 기능 분리 원칙을 에이전트 아키텍처 수준에서 적용한 동일 설계 패턴
+Related:: [[Filesystem MCP connects Claude Desktop to Obsidian vaults through a single JSON config without plugins]] — MCP를 통한 Claude+Obsidian 연동이 도구 체이닝의 또 다른 적용 사례

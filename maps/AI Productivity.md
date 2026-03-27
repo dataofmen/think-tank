@@ -21,6 +21,10 @@ topic: "ai-productivity"
 - [[Filesystem MCP connects Claude Desktop to Obsidian vaults through a single JSON config without plugins]] — JSON 설정 하나로 Obsidian vault를 Claude에 연동하는 최소 인프라 패턴
 - [[Unnecessary complexity in AI-PKM integration reduces actual adoption more than it adds capability]] — AI-PKM 통합에서 초기 마찰 제거가 기능 풍부성보다 장기 활용도를 결정
 - [[Filesystem-only AI access to knowledge bases hits context window limits at scale requiring structured metadata layers]] — 파일시스템 단독 접근의 규모 확장 한계와 구조화된 메타데이터 필요성
+- [[Chaining NotebookLM Claude and Anki produced 504 flashcards from a single TV series without textbooks]] — NotebookLM→Claude→Anki 3단계 체이닝으로 TV 시리즈에서 504장 플래시카드를 자동 생성한 사례
+- [[FSRS algorithm trained on 700 million reviews optimizes spaced repetition beyond traditional schedulers]] — 7억 건 커뮤니티 데이터로 훈련된 ML 기반 간격 반복 스케줄러가 전문가 설계 SM-2를 초월
+- [[Emotional anchoring from familiar media content improves vocabulary retention over context-free methods]] — 친숙한 미디어의 감정적 맥락이 탈맥락적 어휘 학습보다 기억 유지율을 높인다는 인지심리학 기반 주장
+- [[Multi-AI tool chaining outperforms single tools by assigning specialized strengths to each pipeline stage]] — 추출→변환→실행 각 단계에 특화 AI를 배치하는 체이닝 패턴의 일반화
 
 ## Tensions
 

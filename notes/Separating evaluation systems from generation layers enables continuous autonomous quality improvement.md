@@ -22,3 +22,4 @@ This separation is what makes the improvement loop autonomous — the evaluation
 ---
 Source:: [[2026-03-27-ai-productivity-ai-agent-self-improvement-loop]]
 Topics:: [[AI Productivity]]
+Related:: [[Multi-AI tool chaining outperforms single tools by assigning specialized strengths to each pipeline stage]] — 기능 분리 원칙이 에이전트 내부 아키텍처를 넘어 도구 간 파이프라인 수준에서도 동일하게 적용됨

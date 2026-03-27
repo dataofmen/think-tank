@@ -147,5 +147,45 @@ tasks:
   - id: "2026-03-27-ai-productivity-notebooklm-claude-anki-language-learning"
     source: "intake/2026-03-27-ai-productivity-notebooklm-claude-anki-language-learning.md"
     phase: "extract"
-    status: "pending"
+    status: "completed"
     created: "2026-03-27T19:41:00"
+
+  - id: "Chaining NotebookLM Claude and Anki produced 504 flashcards from a single TV series without textbooks"
+    source: "notes/Chaining NotebookLM Claude and Anki produced 504 flashcards from a single TV series without textbooks.md"
+    phase: "verify"
+    status: "completed"
+    created: "2026-03-27T19:50:00"
+    parent: "2026-03-27-ai-productivity-notebooklm-claude-anki-language-learning"
+    reflect_connections: 2
+    reweave_actions: 0
+    verify_score: "5/5"
+
+  - id: "FSRS algorithm trained on 700 million reviews optimizes spaced repetition beyond traditional schedulers"
+    source: "notes/FSRS algorithm trained on 700 million reviews optimizes spaced repetition beyond traditional schedulers.md"
+    phase: "verify"
+    status: "completed"
+    created: "2026-03-27T19:50:00"
+    parent: "2026-03-27-ai-productivity-notebooklm-claude-anki-language-learning"
+    reflect_connections: 2
+    reweave_actions: 1
+    verify_score: "5/5"
+
+  - id: "Emotional anchoring from familiar media content improves vocabulary retention over context-free methods"
+    source: "notes/Emotional anchoring from familiar media content improves vocabulary retention over context-free methods.md"
+    phase: "verify"
+    status: "completed"
+    created: "2026-03-27T19:50:00"
+    parent: "2026-03-27-ai-productivity-notebooklm-claude-anki-language-learning"
+    reflect_connections: 1
+    reweave_actions: 0
+    verify_score: "4/5"
+
+  - id: "Multi-AI tool chaining outperforms single tools by assigning specialized strengths to each pipeline stage"
+    source: "notes/Multi-AI tool chaining outperforms single tools by assigning specialized strengths to each pipeline stage.md"
+    phase: "verify"
+    status: "completed"
+    created: "2026-03-27T19:50:00"
+    parent: "2026-03-27-ai-productivity-notebooklm-claude-anki-language-learning"
+    reflect_connections: 3
+    reweave_actions: 1
+    verify_score: "5/5"

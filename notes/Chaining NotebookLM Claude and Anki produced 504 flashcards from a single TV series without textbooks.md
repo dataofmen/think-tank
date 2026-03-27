@@ -24,3 +24,5 @@ The recommended workflow is to study flashcards first, then watch the correspond
 ---
 Source:: [[2026-03-27-ai-productivity-notebooklm-claude-anki-language-learning]]
 Topics:: [[AI Productivity]]
+Related:: [[Multi-AI tool chaining outperforms single tools by assigning specialized strengths to each pipeline stage]] — 이 사례가 추출→변환→실행 체이닝 패턴의 구체적 실증
+Related:: [[Separating evaluation systems from generation layers enables continuous autonomous quality improvement]] — 기능 분리 아키텍처가 도구 수준(NotebookLM/Claude/Anki)에서도 동일하게 적용됨
