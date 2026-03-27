@@ -22,3 +22,4 @@ Karpathy는 autoresearch의 적용 범위를 일반화한다: "reasonably effici
 ---
 Source:: [[2026-03-27-ai-productivity-autoresearch-agent-optimization]]
 Topics:: [[AI Productivity]]
+Related:: [[Autoresearch pattern requires a measurable metric, code access, and experiment history tracking]] — 측정 가능 메트릭 요건을 적용 범위 관점에서 확장

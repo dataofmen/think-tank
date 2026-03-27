@@ -14,35 +14,50 @@ tasks:
 
   - id: "Autoresearch agent discovered optimizations in nanochat that a 20-year expert had missed"
     source: "notes/Autoresearch agent discovered optimizations in nanochat that a 20-year expert had missed.md"
-    phase: "reflect"
-    status: "pending"
+    phase: "verify"
+    status: "completed"
     created: "2026-03-27T14:36:00"
     parent: "2026-03-27-ai-productivity-autoresearch-agent-optimization"
+    reflect_connections: 1
+    reweave_actions: 0
+    verify_score: "5/5"
 
   - id: "Autoresearch agents plan next experiments based on previous results, not random search"
     source: "notes/Autoresearch agents plan next experiments based on previous results, not random search.md"
-    phase: "reflect"
-    status: "pending"
+    phase: "verify"
+    status: "completed"
     created: "2026-03-27T14:36:00"
     parent: "2026-03-27-ai-productivity-autoresearch-agent-optimization"
+    reflect_connections: 1
+    reweave_actions: 0
+    verify_score: "5/5"
 
   - id: "Competitive pressure will drive all frontier labs to adopt autoresearch agents"
     source: "notes/Competitive pressure will drive all frontier labs to adopt autoresearch agents.md"
-    phase: "reflect"
-    status: "pending"
+    phase: "verify"
+    status: "completed"
     created: "2026-03-27T14:36:00"
     parent: "2026-03-27-ai-productivity-autoresearch-agent-optimization"
+    reflect_connections: 1
+    reweave_actions: 0
+    verify_score: "4/5"
 
   - id: "Any efficiently evaluable metric can be autoresearched by an agent swarm"
     source: "notes/Any efficiently evaluable metric can be autoresearched by an agent swarm.md"
-    phase: "reflect"
-    status: "pending"
+    phase: "verify"
+    status: "completed"
     created: "2026-03-27T14:36:00"
     parent: "2026-03-27-ai-productivity-autoresearch-agent-optimization"
+    reflect_connections: 1
+    reweave_actions: 0
+    verify_score: "4/5"
 
   - id: "Autoresearch pattern requires a measurable metric, code access, and experiment history tracking"
     source: "notes/Autoresearch pattern requires a measurable metric, code access, and experiment history tracking.md"
-    phase: "reflect"
-    status: "pending"
+    phase: "verify"
+    status: "completed"
     created: "2026-03-27T14:36:00"
     parent: "2026-03-27-ai-productivity-autoresearch-agent-optimization"
+    reflect_connections: 1
+    reweave_actions: 1
+    verify_score: "4/5"

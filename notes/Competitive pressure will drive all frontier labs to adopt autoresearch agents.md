@@ -22,3 +22,4 @@ Karpathy는 autoresearch를 "final boss battle"로 규정하며, 모든 프론�
 ---
 Source:: [[2026-03-27-ai-productivity-autoresearch-agent-optimization]]
 Topics:: [[AI Productivity]]
+Related:: [[Autoresearch agent discovered optimizations in nanochat that a 20-year expert had missed]] — 11% 성능 개선이라는 핵심 근거를 제공
