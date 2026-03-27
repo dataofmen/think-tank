@@ -1,0 +1,24 @@
+---
+description: "측정 가능하고 효율적으로 평가할 수 있는 메트릭이라면 에이전트 스웜을 통해 자동 최적화 가능하다는 원칙. 효율적 프록시 메트릭이 존재하는 영역에서 즉시 적용 가능하나, Goodhart's Law 리스크 존재."
+type: claim
+created: 2026-03-27
+source_verification: "1차자료"
+evidence_level: "interpretation"
+applicability: "High"
+topic: "ai-productivity"
+tags:
+  - ai-agent
+  - autoresearch
+  - metric-optimization
+  - proxy-metrics
+source_url: "https://x.com/karpathy/status/2031135152349524125"
+source_author: "Andrej Karpathy"
+---
+
+Karpathy는 autoresearch의 적용 범위를 일반화한다: "reasonably efficient to evaluate"한 메트릭이라면 에이전트 스웜을 통한 자동 최적화가 가능하며, 효율적 프록시 메트릭(예: 더 작은 네트워크 학습)이 있다면 더욱 실용적이다. 핵심 질문은 "당신의 문제가 이 범주에 해당하는가"이다.
+
+적용 범위의 제약도 명확하다. 평가 비용이 높은 메트릭(사용자 만족도, 장기 리텐션 등)은 빠른 반복 실험이 불가능하고, 프록시 메트릭과 실제 메트릭의 괴리(Goodhart's Law)가 발생할 수 있다. 그럼에도 효율적 프록시가 존재하는 영역에서는 즉시 적용 가능하며, 적용 범위를 점진적으로 확장하는 전략이 합리적이다.
+
+---
+Source:: [[2026-03-27-ai-productivity-autoresearch-agent-optimization]]
+Topics:: [[AI Productivity]]
