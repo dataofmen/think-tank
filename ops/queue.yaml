@@ -198,28 +198,40 @@ tasks:
 
   - id: "A Mac Mini and Telegram bot can run a personal AI agent system 24-7 for months without reliability issues"
     source: "notes/A Mac Mini and Telegram bot can run a personal AI agent system 24-7 for months without reliability issues.md"
-    phase: "reflect"
-    status: "pending"
+    phase: "verify"
+    status: "completed"
     created: "2026-03-29T12:10:00"
     parent: "2026-03-27-ai-productivity-personal-ai-agent-setup"
+    reflect_connections: 3
+    reweave_actions: 1
+    verify_score: "5/5"
 
   - id: "Migrating between AI agent orchestration frameworks takes hours not days when the infrastructure layer is stable"
     source: "notes/Migrating between AI agent orchestration frameworks takes hours not days when the infrastructure layer is stable.md"
-    phase: "reflect"
-    status: "pending"
+    phase: "verify"
+    status: "completed"
     created: "2026-03-29T12:10:00"
     parent: "2026-03-27-ai-productivity-personal-ai-agent-setup"
+    reflect_connections: 2
+    reweave_actions: 0
+    verify_score: "5/5"
 
   - id: "Automated morning briefings from multiple sources compress hours of daily research scanning into minutes"
     source: "notes/Automated morning briefings from multiple sources compress hours of daily research scanning into minutes.md"
-    phase: "reflect"
-    status: "pending"
+    phase: "verify"
+    status: "completed"
     created: "2026-03-29T12:10:00"
     parent: "2026-03-27-ai-productivity-personal-ai-agent-setup"
+    reflect_connections: 2
+    reweave_actions: 0
+    verify_score: "5/5"
 
   - id: "A twenty-dollar-per-month LLM is sufficient to power a practical daily-use AI agent system"
     source: "notes/A twenty-dollar-per-month LLM is sufficient to power a practical daily-use AI agent system.md"
-    phase: "reflect"
-    status: "pending"
+    phase: "verify"
+    status: "completed"
     created: "2026-03-29T12:10:00"
     parent: "2026-03-27-ai-productivity-personal-ai-agent-setup"
+    reflect_connections: 2
+    reweave_actions: 1
+    verify_score: "5/5"

@@ -18,6 +18,10 @@ topic: "ai-productivity"
 - [[Separating evaluation systems from generation layers enables continuous autonomous quality improvement]] — evaluation/generation 분리가 자율 품질 개선의 아키텍처적 전제조건
 - [[The bottleneck for AI agent capability was deployment infrastructure not model intelligence]] — AI 에이전트의 실질적 병목은 모델 지능이 아닌 배포 인프라였으며 오픈소스로 해소 중
 - [[AI agents that use their own capabilities to build new capabilities produce compound improvement effects]] — 에이전트 자체 역량이 다음 개선 사이클의 인프라가 되는 복리 효과
+- [[A Mac Mini and Telegram bot can run a personal AI agent system 24-7 for months without reliability issues]] — 소비자 하드웨어로 2개월간 24/7 에이전트를 안정 운영한 실증 사례
+- [[Migrating between AI agent orchestration frameworks takes hours not days when the infrastructure layer is stable]] — 인프라 레이어 분리로 3시간 내 프레임워크 마이그레이션을 완료한 사례
+- [[Automated morning briefings from multiple sources compress hours of daily research scanning into minutes]] — 다중 소스 자동 수집→필터링→브리핑 파이프라인이 리서치 스캐닝 시간을 대폭 단축
+- [[A twenty-dollar-per-month LLM is sufficient to power a practical daily-use AI agent system]] — $21/월 GLM-5로 실용적 에이전트를 2개월간 운영한 비용 효율 사례
 - [[Filesystem MCP connects Claude Desktop to Obsidian vaults through a single JSON config without plugins]] — JSON 설정 하나로 Obsidian vault를 Claude에 연동하는 최소 인프라 패턴
 - [[Unnecessary complexity in AI-PKM integration reduces actual adoption more than it adds capability]] — AI-PKM 통합에서 초기 마찰 제거가 기능 풍부성보다 장기 활용도를 결정
 - [[Filesystem-only AI access to knowledge bases hits context window limits at scale requiring structured metadata layers]] — 파일시스템 단독 접근의 규모 확장 한계와 구조화된 메타데이터 필요성

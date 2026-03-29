@@ -22,3 +22,4 @@ The quantitative evidence is limited to the [[Recursive evaluation-improvement l
 ---
 Source:: [[2026-03-27-ai-productivity-ai-agent-self-improvement-loop]]
 Topics:: [[AI Productivity]]
+Related:: [[A Mac Mini and Telegram bot can run a personal AI agent system 24-7 for months without reliability issues]] — 안정적 인프라가 복리 개선 사이클의 기반
