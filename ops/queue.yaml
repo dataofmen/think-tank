@@ -311,3 +311,9 @@ tasks:
     created: "2026-03-29T10:51:00"
     parent: "2026-03-27-ai-agent-orchestration-paperclip"
     reflect_connections: 2
+
+  - id: "2026-03-29-data-analysis-volatility-targeting-position-sizing"
+    source: "intake/2026-03-29-data-analysis-volatility-targeting-position-sizing.md"
+    phase: "extract"
+    status: "pending"
+    created: "2026-03-29T21:50:00"
