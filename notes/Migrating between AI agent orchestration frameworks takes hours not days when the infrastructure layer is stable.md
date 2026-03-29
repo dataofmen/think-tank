@@ -16,7 +16,7 @@ source_url: "https://x.com/witcheer/status/2037528582298194123"
 source_author: "witcheer"
 ---
 
-witcheer는 AI 에이전트 오케스트레이션 프레임워크를 OpenClaw에서 Hermes Agent(Nous Research)로 약 3시간 만에 마이그레이션했다. 핵심은 인프라 레이어(Mac Mini M4, Telegram 봇, $21/월 GLM-5)를 그대로 유지하고 오케스트레이션 엔진만 교체한 것이다. 이 과정에서 14개 launchd 에이전트와 25개 쉘 스크립트가 통합 프레임워크로 단순화되었다. 이는 에이전트 시스템 설계 시 인프라 레이어와 오케스트레이션 레이어를 분리하면 프레임워크 락인 없이 빠르게 전환할 수 있음을 실증한다. 레이어 분리가 장기 유연성의 핵심이다.
+witcheer는 AI 에이전트 오케스트레이션 프레임워크를 OpenClaw에서 Hermes Agent(Nous Research)로 약 3시간 만에 마이그레이션했다. 핵심은 인프라 레이어(Mac Mini M4, Telegram 봇, $21/월 GLM-5)를 그대로 유지하고 오케스트레이션 엔진만 교체한 것이다. 이 과정에서 14개 launchd 에이전트와 25개 쉘 스크립트가 통합 프레임워크로 단순화되었다. 이는 [[The bottleneck for AI agent capability was deployment infrastructure not model intelligence|배포 인프라가 에이전트 역량의 병목]]이라는 통찰을 레이어 분리 설계로 해소한 사례이며, [[Separating evaluation systems from generation layers enables continuous autonomous quality improvement|evaluation/generation 분리]]와 마찬가지로 AI 시스템에서 관심사 분리가 독립적 진화를 가능케 하는 반복 패턴임을 보여준다.
 
 ---
 Source:: [[2026-03-27-ai-productivity-personal-ai-agent-setup]]
