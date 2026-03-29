@@ -27,7 +27,7 @@ source_author: "Nick Spisak"
 - ~/.claude/history.jsonl — 히스토리 (기기별 분리 권장)
 - ~/.claude/projects/ — 프로젝트 경로가 절대 경로로 저장되어 다른 기기에서 오류 발생
 
-특히 projects/ 폴더는 절대 경로로 추적되므로, 사용자명이 다른 기기에서는 Claude가 프로젝트를 찾지 못한다. 해결책: 두 기기에서 동일한 사용자명을 사용하거나 projects/를 동기화하지 않는다.
+특히 projects/ 폴더는 절대 경로로 추적되므로, 사용자명이 다른 기기에서는 Claude가 프로젝트를 찾지 못한다. 해결책: 두 기기에서 동일한 사용자명을 사용하거나 projects/를 동기화하지 않는다. [[Filesystem MCP connects Claude Desktop to Obsidian vaults through a single JSON config without plugins|JSON 설정 하나로 Claude-Obsidian 연동]]과 함께, 최소한의 설정 파일만 동기화하는 패턴이 인프라 복잡성을 줄인다.
 
 ---
 Source:: [[2026-03-27-claude-channels-mac-mini-24-7-setup]]

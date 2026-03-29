@@ -29,6 +29,10 @@ topic: "ai-productivity"
 - [[FSRS algorithm trained on 700 million reviews optimizes spaced repetition beyond traditional schedulers]] — 7억 건 커뮤니티 데이터로 훈련된 ML 기반 간격 반복 스케줄러가 전문가 설계 SM-2를 초월
 - [[Emotional anchoring from familiar media content improves vocabulary retention over context-free methods]] — 친숙한 미디어의 감정적 맥락이 탈맥락적 어휘 학습보다 기억 유지율을 높인다는 인지심리학 기반 주장
 - [[Multi-AI tool chaining outperforms single tools by assigning specialized strengths to each pipeline stage]] — 추출→변환→실행 각 단계에 특화 AI를 배치하는 체이닝 패턴의 일반화
+- [[Claude Code Channels enables remote access to Claude through Telegram Discord and iMessage]] — Telegram/Discord/iMessage를 통한 원격 Claude 접속을 공식 빌트인 기능으로 제공
+- [[Claude Code Channels has no message queue so offline messages are lost]] — Channels의 초기 제약: 오프라인 메시지 유실로 인한 24/7 운영 신뢰성 이슈
+- [[Orchestration layers solve workflow chaos from running multiple AI agents simultaneously]] — 다수 에이전트 동시 실행 시 워크플로우 혼란을 오케스트레이션 레이어가 해결
+- [[Heartbeat systems maintain agent identity goals and quality standards across sessions]] — 에이전트 정체성, 목표, 품질 기준을 세션 간에 유지하는 메커니즘
 
 ## Tensions
 

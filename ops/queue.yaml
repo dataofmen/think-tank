@@ -235,3 +235,79 @@ tasks:
     reflect_connections: 2
     reweave_actions: 1
     verify_score: "5/5"
+
+  - id: "2026-03-27-claude-channels-mac-mini-24-7-setup"
+    source: "intake/2026-03-27-claude-channels-mac-mini-24-7-setup.md"
+    phase: "extract"
+    status: "completed"
+    created: "2026-03-29T10:45:00"
+
+  - id: "Claude Code Channels enables remote access to Claude through Telegram Discord and iMessage"
+    source: "notes/Claude Code Channels enables remote access to Claude through Telegram Discord and iMessage.md"
+    phase: "reweave"
+    status: "pending"
+    created: "2026-03-29T10:50:00"
+    parent: "2026-03-27-claude-channels-mac-mini-24-7-setup"
+    reflect_connections: 1
+
+  - id: "SyncThing provides free P2P file synchronization between computers without cloud dependency"
+    source: "notes/SyncThing provides free P2P file synchronization between computers without cloud dependency.md"
+    phase: "reweave"
+    status: "pending"
+    created: "2026-03-29T10:50:00"
+    parent: "2026-03-27-claude-channels-mac-mini-24-7-setup"
+    reflect_connections: 1
+
+  - id: "macOS LaunchAgent enables automatic Claude Code restart with user authentication access"
+    source: "notes/macOS LaunchAgent enables automatic Claude Code restart with user authentication access.md"
+    phase: "reweave"
+    status: "pending"
+    created: "2026-03-29T10:50:00"
+    parent: "2026-03-27-claude-channels-mac-mini-24-7-setup"
+    reflect_connections: 1
+
+  - id: "Claude Code Channels has no message queue so offline messages are lost"
+    source: "notes/Claude Code Channels has no message queue so offline messages are lost.md"
+    phase: "reweave"
+    status: "pending"
+    created: "2026-03-29T10:50:00"
+    parent: "2026-03-27-claude-channels-mac-mini-24-7-setup"
+    reflect_connections: 1
+
+  - id: "Claude Code settings sync includes skills and commands but excludes local configs and project paths"
+    source: "notes/Claude Code settings sync includes skills and commands but excludes local configs and project paths.md"
+    phase: "reweave"
+    status: "pending"
+    created: "2026-03-29T10:50:00"
+    parent: "2026-03-27-claude-channels-mac-mini-24-7-setup"
+    reflect_connections: 1
+
+  - id: "2026-03-27-ai-agent-orchestration-paperclip"
+    source: "intake/2026-03-27-ai-agent-orchestration-paperclip.md"
+    phase: "extract"
+    status: "completed"
+    created: "2026-03-29T10:45:00"
+
+  - id: "Paperclip achieved 30,000 GitHub stars in three weeks demonstrating market demand for agent orchestration"
+    source: "notes/Paperclip achieved 30,000 GitHub stars in three weeks demonstrating market demand for agent orchestration.md"
+    phase: "reweave"
+    status: "pending"
+    created: "2026-03-29T10:51:00"
+    parent: "2026-03-27-ai-agent-orchestration-paperclip"
+    reflect_connections: 0
+
+  - id: "Orchestration layers solve workflow chaos from running multiple AI agents simultaneously"
+    source: "notes/Orchestration layers solve workflow chaos from running multiple AI agents simultaneously.md"
+    phase: "reweave"
+    status: "pending"
+    created: "2026-03-29T10:51:00"
+    parent: "2026-03-27-ai-agent-orchestration-paperclip"
+    reflect_connections: 2
+
+  - id: "Heartbeat systems maintain agent identity goals and quality standards across sessions"
+    source: "notes/Heartbeat systems maintain agent identity goals and quality standards across sessions.md"
+    phase: "reweave"
+    status: "pending"
+    created: "2026-03-29T10:51:00"
+    parent: "2026-03-27-ai-agent-orchestration-paperclip"
+    reflect_connections: 2

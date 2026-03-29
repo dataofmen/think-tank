@@ -23,7 +23,7 @@ source_author: "@startupideaspod"
 - Heartbeat 시스템으로 에이전트 정체성, 목표, 품질 기준 유지
 - 루틴으로 반복 작업 자동화
 
-이는 단일 에이전트 워크플로우에서 멀티 에이전트 워크플로우로 확장할 때 필수적인 레이어다.
+이는 단일 에이전트 워크플로우에서 멀티 에이전트 워크플로우로 확장할 때 필수적인 레이어다. [[The bottleneck for AI agent capability was deployment infrastructure not model intelligence|AI 에이전트의 병목이 인프라]]라는 주장을 확장하면, 오케스트레이션 레이어도 인프라의 일부로서 에이전트 역량을 결정한다. [[Migrating between AI agent orchestration frameworks takes hours not days when the infrastructure layer is stable|인프라 레이어 분리가 마이그레이션을 수 시간 내에 가능케 하는데]], 오케스트레이션 레이어도 이 안정적 인프라의 구성 요소다.
 
 ---
 Source:: [[2026-03-27-ai-agent-orchestration-paperclip]]
