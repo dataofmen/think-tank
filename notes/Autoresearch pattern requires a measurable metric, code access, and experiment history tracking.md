@@ -17,7 +17,7 @@ source_author: "Andrej Karpathy"
 
 Karpathy의 autoresearch 사례에서 추출한 핵심 패턴은 세 가지 요소로 구성된다: (1) 측정 가능한 메트릭을 명확히 정의하고, (2) 에이전트에 코드 수정 권한을 부여하며, (3) 실험 이력을 기반으로 다음 실험을 계획하게 한다. 결과는 스태킹(누적)되어야 한다.
 
-이 패턴은 ML 학습 최적화를 넘어 범용적으로 적용 가능하다. 설문 설계 에이전트가 응답 완료율을 메트릭으로 설문 구조를 반복 최적화하거나, 데이터 파이프라인에서 처리 시간을 메트릭으로 코드를 자율 개선하는 시나리오에 동일 패턴이 적용된다. 핵심은 에이전트의 exhaustive search가 인간의 직관적 튜닝을 보완하는 상호보완 모델이라는 점이다. 이 패턴의 적용 범위는 [[Any efficiently evaluable metric can be autoresearched by an agent swarm|효율적으로 평가 가능한 메트릭]]이 존재하는 영역으로 확장된다.
+이 패턴은 ML 학습 최적화를 넘어 범용적으로 적용 가능하다. 설문 설계 에이전트가 응답 완료율을 메트릭으로 설문 구조를 반복 최적화하거나, 데이터 파이프라인에서 처리 시간을 메트릭으로 코드를 자율 개선하는 시나리오에 동일 패턴이 적용된다. 핵심은 에이전트의 exhaustive search가 인간의 직관적 튜닝을 보완하는 상호보완 모델이라는 점이다. 이 패턴의 적용 범위는 [[Any efficiently evaluable metric can be autoresearched by an agent swarm|효율적으로 평가 가능한 메트릭]]이 존재하는 영역으로 확장된다. [[Heartbeat systems maintain agent identity goals and quality standards across sessions|Heartbeat 시스템]]도 에이전트가 자신의 정체성과 목표를 지속적으로 확인하는 메커니즘으로, autoresearch의 "실험 이력 기반 계획"과 같은 맥락에서 이해할 수 있다.
 
 ---
 Source:: [[2026-03-27-ai-productivity-autoresearch-agent-optimization]]

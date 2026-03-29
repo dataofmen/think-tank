@@ -25,3 +25,4 @@ Topics:: [[AI Productivity]]
 Related:: [[Autoresearch pattern requires a measurable metric, code access, and experiment history tracking]] — 측정 가능 메트릭 요건을 적용 범위 관점에서 확장
 Related:: [[Recursive evaluation-improvement loops raised AI agent first-pass quality from 40 percent to 94 percent]] — 6개 pass/fail 기준이 efficiently evaluable metric의 구체적 적용 사례
 Related:: [[FSRS algorithm trained on 700 million reviews optimizes spaced repetition beyond traditional schedulers]] — 커뮤니티 스케일 데이터가 전문가 휴리스틱을 초월하는 동일 패턴을 학습 스케줄링 영역에서 실증
+Related:: [[EWMA with decay factor 0.94 is a widely adopted standard for short-term volatility estimation]] — 변동성 추정의 감쇠 계수가 autoresearch로 최적화 가능한 구체적 사례

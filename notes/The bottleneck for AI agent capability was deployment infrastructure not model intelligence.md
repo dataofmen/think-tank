@@ -24,3 +24,4 @@ Source:: [[2026-03-27-ai-productivity-ai-agent-self-improvement-loop]]
 Topics:: [[AI Productivity]]
 Related:: [[Filesystem MCP connects Claude Desktop to Obsidian vaults through a single JSON config without plugins]] — PKM 영역에서 배포 인프라 단순화의 구체적 사례 (JSON 설정 하나로 연동 완료)
 Related:: [[A Mac Mini and Telegram bot can run a personal AI agent system 24-7 for months without reliability issues]] — 소비자 하드웨어로 배포 인프라를 구현한 2개월 실운영 사례
+Related:: [[Orchestration layers solve workflow chaos from running multiple AI agents simultaneously]] — 멀티 에이전트 환경에서 오케스트레이션도 인프라의 일부로 기능

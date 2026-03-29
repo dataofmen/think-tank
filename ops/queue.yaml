@@ -244,43 +244,48 @@ tasks:
 
   - id: "Claude Code Channels enables remote access to Claude through Telegram Discord and iMessage"
     source: "notes/Claude Code Channels enables remote access to Claude through Telegram Discord and iMessage.md"
-    phase: "reweave"
+    phase: "verify"
     status: "pending"
     created: "2026-03-29T10:50:00"
     parent: "2026-03-27-claude-channels-mac-mini-24-7-setup"
     reflect_connections: 1
+    reweave_actions: 1
 
   - id: "SyncThing provides free P2P file synchronization between computers without cloud dependency"
     source: "notes/SyncThing provides free P2P file synchronization between computers without cloud dependency.md"
-    phase: "reweave"
+    phase: "verify"
     status: "pending"
     created: "2026-03-29T10:50:00"
     parent: "2026-03-27-claude-channels-mac-mini-24-7-setup"
     reflect_connections: 1
+    reweave_actions: 1
 
   - id: "macOS LaunchAgent enables automatic Claude Code restart with user authentication access"
     source: "notes/macOS LaunchAgent enables automatic Claude Code restart with user authentication access.md"
-    phase: "reweave"
+    phase: "verify"
     status: "pending"
     created: "2026-03-29T10:50:00"
     parent: "2026-03-27-claude-channels-mac-mini-24-7-setup"
     reflect_connections: 1
+    reweave_actions: 1
 
   - id: "Claude Code Channels has no message queue so offline messages are lost"
     source: "notes/Claude Code Channels has no message queue so offline messages are lost.md"
-    phase: "reweave"
+    phase: "verify"
     status: "pending"
     created: "2026-03-29T10:50:00"
     parent: "2026-03-27-claude-channels-mac-mini-24-7-setup"
     reflect_connections: 1
+    reweave_actions: 1
 
   - id: "Claude Code settings sync includes skills and commands but excludes local configs and project paths"
     source: "notes/Claude Code settings sync includes skills and commands but excludes local configs and project paths.md"
-    phase: "reweave"
+    phase: "verify"
     status: "pending"
     created: "2026-03-29T10:50:00"
     parent: "2026-03-27-claude-channels-mac-mini-24-7-setup"
     reflect_connections: 1
+    reweave_actions: 1
 
   - id: "2026-03-27-ai-agent-orchestration-paperclip"
     source: "intake/2026-03-27-ai-agent-orchestration-paperclip.md"
@@ -290,30 +295,68 @@ tasks:
 
   - id: "Paperclip achieved 30,000 GitHub stars in three weeks demonstrating market demand for agent orchestration"
     source: "notes/Paperclip achieved 30,000 GitHub stars in three weeks demonstrating market demand for agent orchestration.md"
-    phase: "reweave"
+    phase: "verify"
     status: "pending"
     created: "2026-03-29T10:51:00"
     parent: "2026-03-27-ai-agent-orchestration-paperclip"
     reflect_connections: 0
+    reweave_actions: 0
 
   - id: "Orchestration layers solve workflow chaos from running multiple AI agents simultaneously"
     source: "notes/Orchestration layers solve workflow chaos from running multiple AI agents simultaneously.md"
-    phase: "reweave"
+    phase: "verify"
     status: "pending"
     created: "2026-03-29T10:51:00"
     parent: "2026-03-27-ai-agent-orchestration-paperclip"
     reflect_connections: 2
+    reweave_actions: 2
 
   - id: "Heartbeat systems maintain agent identity goals and quality standards across sessions"
     source: "notes/Heartbeat systems maintain agent identity goals and quality standards across sessions.md"
-    phase: "reweave"
+    phase: "verify"
     status: "pending"
     created: "2026-03-29T10:51:00"
     parent: "2026-03-27-ai-agent-orchestration-paperclip"
     reflect_connections: 2
+    reweave_actions: 2
 
   - id: "2026-03-29-data-analysis-volatility-targeting-position-sizing"
     source: "intake/2026-03-29-data-analysis-volatility-targeting-position-sizing.md"
     phase: "extract"
-    status: "pending"
+    status: "completed"
     created: "2026-03-29T21:50:00"
+
+  - id: "Fixed position sizing structurally misprices risk across assets with different volatilities"
+    source: "notes/Fixed position sizing structurally misprices risk across assets with different volatilities.md"
+    phase: "reflect"
+    status: "pending"
+    created: "2026-03-29T22:00:00"
+    parent: "2026-03-29-data-analysis-volatility-targeting-position-sizing"
+
+  - id: "Volatility targeting normalizes risk exposure through the ratio of target to realized volatility"
+    source: "notes/Volatility targeting normalizes risk exposure through the ratio of target to realized volatility.md"
+    phase: "reflect"
+    status: "pending"
+    created: "2026-03-29T22:00:00"
+    parent: "2026-03-29-data-analysis-volatility-targeting-position-sizing"
+
+  - id: "EWMA with decay factor 0.94 is a widely adopted standard for short-term volatility estimation"
+    source: "notes/EWMA with decay factor 0.94 is a widely adopted standard for short-term volatility estimation.md"
+    phase: "reflect"
+    status: "pending"
+    created: "2026-03-29T22:00:00"
+    parent: "2026-03-29-data-analysis-volatility-targeting-position-sizing"
+
+  - id: "Volatility targeting improves risk-adjusted returns by reducing exposure during high-volatility regimes"
+    source: "notes/Volatility targeting improves risk-adjusted returns by reducing exposure during high-volatility regimes.md"
+    phase: "reflect"
+    status: "pending"
+    created: "2026-03-29T22:00:00"
+    parent: "2026-03-29-data-analysis-volatility-targeting-position-sizing"
+
+  - id: "Correlated contracts on the same event represent one position regardless of nominal diversification"
+    source: "notes/Correlated contracts on the same event represent one position regardless of nominal diversification.md"
+    phase: "reflect"
+    status: "pending"
+    created: "2026-03-29T22:00:00"
+    parent: "2026-03-29-data-analysis-volatility-targeting-position-sizing"
