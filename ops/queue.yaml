@@ -375,3 +375,9 @@ tasks:
     reflect_connections: 1
     reweave_actions: 0
     verify_score: "4/5"
+
+  - id: "2026-03-30-ai-productivity-spark-self-evolving-agent"
+    source: "intake/2026-03-30-ai-productivity-spark-self-evolving-agent.md"
+    phase: "extract"
+    status: "pending"
+    created: "2026-03-30T07:35:00"
