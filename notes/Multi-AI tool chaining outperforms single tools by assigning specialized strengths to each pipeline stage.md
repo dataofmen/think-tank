@@ -22,7 +22,8 @@ This pattern maps directly to other domains. In UX research, the equivalent chai
 The limitation is that multi-tool chains introduce integration friction and failure points at each handoff. The approach is most justified when the quality gap between specialized and general tools is large enough to offset the coordination cost.
 
 ---
-Source:: [[2026-03-27-ai-productivity-notebooklm-claude-anki-language-learning]]
+Source:: [[2026-03-27-notebooklm-claude-anki-language-learning]]
+Derived:: [[2026-03-27-ai-productivity-notebooklm-claude-anki-language-learning]]
 Topics:: [[AI Productivity]]
 Related:: [[Chaining NotebookLM Claude and Anki produced 504 flashcards from a single TV series without textbooks]] — 이 패턴의 구체적 실증 사례 (NotebookLM→Claude→Anki 체인)
 Related:: [[Separating evaluation systems from generation layers enables continuous autonomous quality improvement]] — 기능 분리 원칙을 에이전트 아키텍처 수준에서 적용한 동일 설계 패턴

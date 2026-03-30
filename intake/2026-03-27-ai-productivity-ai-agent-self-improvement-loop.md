@@ -83,3 +83,6 @@ type: "twitter"
 > Before we built this architecture: about 40% of our AI responses needed manual editing. After: 94% pass rate on first evaluation cycle.
 
 > The constraint on AI capability was never intelligence. The constraint was deployment — getting that intelligence connected to real tools, real data, real actions.
+
+---
+Source:: [[2026-03-27-building-self-improvement-into-ai-agents]]

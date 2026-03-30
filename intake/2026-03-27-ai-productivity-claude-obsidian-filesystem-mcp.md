@@ -71,3 +71,6 @@ type: "twitter"
 (대부분의 사람들이 Obsidian + AI를 복잡하게 만든다. 진짜 강력한 방안은 오히려 가장 간단하다. 플러그인 설치, 명령어 학습, 워크플로우 구축 없이 설정 하나면 된다.)
 
 **참고**: 원문 기사(laozhang.ai/claude-obsidian-filesystem-mcp/)는 크롤링 시점(2026-03-27) 404 상태. 원문 보존: [[archive/2026-03-27-claude-obsidian-filesystem-mcp-tutorial]]
+
+---
+Source:: [[2026-03-27-claude-obsidian-filesystem-mcp-tutorial]]

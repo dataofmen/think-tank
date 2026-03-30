@@ -84,3 +84,6 @@ type: "twitter"
 > If your contracts are correlated - separate scaling will give a false sense of diversification. Two contracts on the same political outcome - that's not two positions. That's one position twice as large.
 
 > Vol spikes -> you scale down -> market bounces -> you miss the recovery -> vol drops -> you scale up -> market falls again
+
+---
+Source:: [[2026-03-29-volatility-targeting-polymarket-position-sizing]]

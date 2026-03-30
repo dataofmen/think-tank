@@ -20,7 +20,8 @@ The author argues that AI capability was historically constrained not by model i
 This is the author's experiential interpretation. The technical accessibility claim is credible for prototyping and validation, but production-grade deployment still requires security, compliance, and reliability investments that these tools alone do not address. The claim is most useful as a directional signal: the cost of experimenting with autonomous agents has dropped by orders of magnitude. Notably, the "code access" requirement in [[Autoresearch pattern requires a measurable metric, code access, and experiment history tracking]] is precisely the kind of deployment capability these frameworks now provide by default. Once this infrastructure bottleneck is resolved, [[AI agents that use their own capabilities to build new capabilities produce compound improvement effects|compound capability improvement]] becomes possible.
 
 ---
-Source:: [[2026-03-27-ai-productivity-ai-agent-self-improvement-loop]]
+Source:: [[2026-03-27-building-self-improvement-into-ai-agents]]
+Derived:: [[2026-03-27-ai-productivity-ai-agent-self-improvement-loop]]
 Topics:: [[AI Productivity]]
 Related:: [[Filesystem MCP connects Claude Desktop to Obsidian vaults through a single JSON config without plugins]] — PKM 영역에서 배포 인프라 단순화의 구체적 사례 (JSON 설정 하나로 연동 완료)
 Related:: [[A Mac Mini and Telegram bot can run a personal AI agent system 24-7 for months without reliability issues]] — 소비자 하드웨어로 배포 인프라를 구현한 2개월 실운영 사례

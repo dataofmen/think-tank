@@ -22,6 +22,7 @@ However, this specific system lacks controlled experimental data comparing reten
 The pipeline design mitigates these risks by recommending a "cards first, then episode" workflow that preserves contextual connection.
 
 ---
-Source:: [[2026-03-27-ai-productivity-notebooklm-claude-anki-language-learning]]
+Source:: [[2026-03-27-notebooklm-claude-anki-language-learning]]
+Derived:: [[2026-03-27-ai-productivity-notebooklm-claude-anki-language-learning]]
 Topics:: [[AI Productivity]]
 Related:: [[FSRS algorithm trained on 700 million reviews optimizes spaced repetition beyond traditional schedulers]] — 인코딩 강도(감정 앵커링)와 복습 스케줄링(FSRS)이 리텐션의 상호보완적 두 축

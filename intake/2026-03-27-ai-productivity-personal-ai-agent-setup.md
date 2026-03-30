@@ -87,3 +87,6 @@ type: "twitter"
 ---
 
 **참고**: 원문은 X Article 형식으로 인증 없이 전문 접근 불가. syndication API + 관련 트윗 스레드 + 웹 검색으로 재구성. 전문은 `archive/2026-03-27-witcheer-living-with-ai-agent-full-setup.md` 참조.
+
+---
+Source:: [[2026-03-27-witcheer-living-with-ai-agent-full-setup]]

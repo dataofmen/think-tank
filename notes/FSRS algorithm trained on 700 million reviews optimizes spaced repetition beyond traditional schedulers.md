@@ -22,7 +22,8 @@ The key advantage over traditional schedulers is data scale: SM-2 was designed f
 This represents a broader pattern where community-scale data enables algorithms that outperform expert-designed heuristics.
 
 ---
-Source:: [[2026-03-27-ai-productivity-notebooklm-claude-anki-language-learning]]
+Source:: [[2026-03-27-notebooklm-claude-anki-language-learning]]
+Derived:: [[2026-03-27-ai-productivity-notebooklm-claude-anki-language-learning]]
 Topics:: [[AI Productivity]]
 Related:: [[Any efficiently evaluable metric can be autoresearched by an agent swarm]] — 커뮤니티 스케일 데이터가 전문가 설계 휴리스틱을 초월하는 동일 패턴; FSRS는 학습 스케줄링 영역의 사례
 Related:: [[Emotional anchoring from familiar media content improves vocabulary retention over context-free methods]] — FSRS가 복습 간격을 최적화하면 감정 앵커링이 인코딩 강도를 높여 상호보완적 리텐션 효과

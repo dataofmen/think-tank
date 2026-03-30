@@ -81,3 +81,6 @@ type: "twitter"
 > And more generally, *any* metric you care about that is reasonably efficient to evaluate (or that has more efficient proxy metrics such as training a smaller network) can be autoresearched by an agent swarm. It's worth thinking about whether your problem falls into this bucket too.
 
 > Neural architecture search as it existed then is such a weak version of this that it's in its own category of totally useless by comparison. This is an *actual* LLM writing arbitrary code, learning from previous experiments, with access to the internet. It's not even close.
+
+---
+Source:: [[2026-03-10-karpathy-autoresearch-nanochat-results]]

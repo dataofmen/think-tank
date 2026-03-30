@@ -77,3 +77,6 @@ type: "twitter"
 > 방법론: NotebookLM으로 TV 시리즈 대본에서 학습 소재 추출 → Claude로 Anki 플래시카드 형식 변환 → FSRS 알고리즘(retention 0.90)으로 간격 반복 스케줄링
 
 > 추천 워크플로우: 플래시카드 학습 후 해당 에피소드 시청 (맥락 연결 극대화)
+
+---
+Source:: [[2026-03-27-notebooklm-claude-anki-language-learning]]
