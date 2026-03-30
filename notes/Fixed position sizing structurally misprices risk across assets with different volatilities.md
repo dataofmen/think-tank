@@ -20,3 +20,4 @@ Fixed position sizing treats all assets as equally risky, which is mathematicall
 ---
 Source:: [[2026-03-29-data-analysis-volatility-targeting-position-sizing]]
 Topics:: [[Data Analysis]]
+Related:: [[Correlated contracts on the same event represent one position regardless of nominal diversification]] — 연관 계약을 분산으로 착각하면 이 구조적 결함이 악화됨

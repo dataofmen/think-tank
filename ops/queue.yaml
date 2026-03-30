@@ -328,35 +328,50 @@ tasks:
 
   - id: "Fixed position sizing structurally misprices risk across assets with different volatilities"
     source: "notes/Fixed position sizing structurally misprices risk across assets with different volatilities.md"
-    phase: "reflect"
-    status: "pending"
+    phase: "verify"
+    status: "completed"
     created: "2026-03-29T22:00:00"
     parent: "2026-03-29-data-analysis-volatility-targeting-position-sizing"
+    reflect_connections: 1
+    reweave_actions: 1
+    verify_score: "4/5"
 
   - id: "Volatility targeting normalizes risk exposure through the ratio of target to realized volatility"
     source: "notes/Volatility targeting normalizes risk exposure through the ratio of target to realized volatility.md"
-    phase: "reflect"
-    status: "pending"
+    phase: "verify"
+    status: "completed"
     created: "2026-03-29T22:00:00"
     parent: "2026-03-29-data-analysis-volatility-targeting-position-sizing"
+    reflect_connections: 1
+    reweave_actions: 1
+    verify_score: "5/5"
 
   - id: "EWMA with decay factor 0.94 is a widely adopted standard for short-term volatility estimation"
     source: "notes/EWMA with decay factor 0.94 is a widely adopted standard for short-term volatility estimation.md"
-    phase: "reflect"
-    status: "pending"
+    phase: "verify"
+    status: "completed"
     created: "2026-03-29T22:00:00"
     parent: "2026-03-29-data-analysis-volatility-targeting-position-sizing"
+    reflect_connections: 0
+    reweave_actions: 0
+    verify_score: "4/5"
 
   - id: "Volatility targeting improves risk-adjusted returns by reducing exposure during high-volatility regimes"
     source: "notes/Volatility targeting improves risk-adjusted returns by reducing exposure during high-volatility regimes.md"
-    phase: "reflect"
-    status: "pending"
+    phase: "verify"
+    status: "completed"
     created: "2026-03-29T22:00:00"
     parent: "2026-03-29-data-analysis-volatility-targeting-position-sizing"
+    reflect_connections: 1
+    reweave_actions: 0
+    verify_score: "4/5"
 
   - id: "Correlated contracts on the same event represent one position regardless of nominal diversification"
     source: "notes/Correlated contracts on the same event represent one position regardless of nominal diversification.md"
-    phase: "reflect"
-    status: "pending"
+    phase: "verify"
+    status: "completed"
     created: "2026-03-29T22:00:00"
     parent: "2026-03-29-data-analysis-volatility-targeting-position-sizing"
+    reflect_connections: 1
+    reweave_actions: 0
+    verify_score: "4/5"

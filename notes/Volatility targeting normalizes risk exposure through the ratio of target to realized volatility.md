@@ -21,3 +21,4 @@ Volatility targeting uses a single formula — leverage equals target volatility
 Source:: [[2026-03-29-data-analysis-volatility-targeting-position-sizing]]
 Topics:: [[Data Analysis]]
 Related:: [[Fixed position sizing structurally misprices risk across assets with different volatilities]] — this methodology solves the structural flaw identified there
+Related:: [[Volatility targeting improves risk-adjusted returns by reducing exposure during high-volatility regimes]] — 백테스트로 실증된 Sharpe ratio 개선 효과
