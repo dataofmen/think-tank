@@ -17,6 +17,8 @@ tags:
 type: "twitter"
 ---
 
+Source:: [[2026-03-27-ai-agent-orchestration-paperclip]]
+
 ## 주요 주장 분석
 
 1. 🟢 **Paperclip은 3주 만에 GitHub 스타 30,000개를 달성했다**

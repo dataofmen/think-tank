@@ -18,6 +18,8 @@ tags:
 type: "twitter"
 ---
 
+Source:: [[2026-03-27-claude-channels-mac-mini-24-7-setup]]
+
 ## 주요 주장 분석
 
 1. 🟢 **Claude Code Channels는 Telegram/Discord/iMessage를 통해 원격으로 Claude와 대화할 수 있게 한다**
