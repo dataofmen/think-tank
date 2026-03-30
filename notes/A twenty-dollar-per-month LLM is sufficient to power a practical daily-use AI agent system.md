@@ -1,5 +1,5 @@
 ---
-description: "GLM-5 월 \$21로 브리핑, 요약, 분류, autoresearch까지 수행 — \$200-400/월 클라우드 LLM 셋업 대비 1/10 비용으로 지속 운영 장벽을 낮춤"
+description: 'GLM-5 월 $21로 브리핑, 요약, 분류, autoresearch까지 수행 — $200-400/월 클라우드 LLM 셋업 대비 1/10 비용으로 지속 운영 장벽을 낮춤'
 type: claim
 created: 2026-03-29
 source_verification: "1차자료"
