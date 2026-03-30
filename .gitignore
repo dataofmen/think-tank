@@ -16,3 +16,8 @@ ops/queue/
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/graph.json
+
+# Private config files (not for web)
+CLAUDE.md
+CONTEXT.md
+README.md
