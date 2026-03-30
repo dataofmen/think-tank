@@ -12,9 +12,10 @@ Think Tank는 Telegram에서 수집한 콘텐츠를 체계적으로 정리하고
 
 ## 구조
 
+- **Archive**: 원본 소스 (트윗, 아티클 등)
+- **Intake**: 검증된 seed 노트
 - **Notes**: Atomic 인사이트 (1파일=1주장)
 - **Maps**: MOC (Map of Contents) - 도메인별 지도
-- **Intake**: 수집된 콘텐츠의 seed 노트
 
 ## 탐색
 
